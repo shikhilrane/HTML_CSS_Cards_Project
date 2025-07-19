@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #8BC6EC;
+    background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: azure;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card p{
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.plan{
+    width: 80%;
+    height: 10%;
+    background: #8BC6EC;
+    background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 
+    100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.plan img{
+    width: 35px;
+    height: 35px;
+}
+
+.plan .changePlan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proceed{
+    width: 80%;
+    height: 10%;
+    background: #024e81d2;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.498);
+    transition: all 0.5s 0.2s ease-in-out;
+
+}
+
+.proceed:hover{
+    transform: scale(1.05);
+}
+
+.proceed a{
+    color: white;
+    text-decoration: none;
+}
+
+.cancel{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancel a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 450;
+}
